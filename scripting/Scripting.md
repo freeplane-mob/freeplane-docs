@@ -85,6 +85,7 @@ c.statusInfo = "Hello World!"
 The "Controller" manages the status bar. By assigning "Hello World!" to the Controller attribute "statusInfo" we are able to print text to the status bar.
 
 ### The scripting API
+
 The variables *node* and *c* are "objects" with a list of *attributes* (like "text", "details" or "style") and *methods* that operate on the object, like "addConnector()", "createChild()" or "moveTo()". The "type" of the object decides on the list of attribute of attributes and methods an object has. "node" is of type [Proxy.Node](http://www.freeplane.org/doc/api/org/freeplane/plugin/script/proxy/Proxy.NodeRO.html) while "c" has the type [Proxy.Controller](http://www.freeplane.org/doc/api/org/freeplane/plugin/script/proxy/Proxy.Controller.html).
 
 To get started with Freeplane scripting you have to get slowly accustomed to the Groovy syntax and the Freeplane specialities too. The types and objects that Freeplane supports are defined by [Freeplane's scripting API](Scripting_API.md). You can learn it step by step: Very little is required to write useful scripts.
